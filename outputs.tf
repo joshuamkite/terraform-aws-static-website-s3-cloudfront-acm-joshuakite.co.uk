@@ -11,8 +11,8 @@ output "s3_bucket_arn" {
   value = module.static-website-s3-cloudfront-acm.s3_bucket_arn
 }
 
-output "s3_bucket_name" {
-  value = module.static-website-s3-cloudfront-acm.s3_bucket_name
+output "s3_bucket_id" {
+  value = module.static-website-s3-cloudfront-acm.s3_bucket_id
 }
 
 output "acm_certificate_id" {
